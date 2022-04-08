@@ -5,8 +5,7 @@ export default function Title() {
   return (
     <Row className="text-center">
       <Col>
-        {" "}
-        <img src="image/todo.png" alt="" className={`img-fluid ${style.img}`} />
+        <img src="image/logo192.png" alt="sadsadsad" />
       </Col>
     </Row>
   );
