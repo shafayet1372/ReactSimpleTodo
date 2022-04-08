@@ -37,7 +37,7 @@ export default function Index({ datas, deleteHandle, getData }) {
                 <ListGroupItem
                   key={x.id}
                   color={x.color}
-                  className={`${style.listItem} my-1 d-flex justify-content-between`}
+                  className={`${style.listItem} ${style.textWrap} my-1 d-flex justify-content-between`}
                 >
                   <div>{x.title}</div>
                   <div>

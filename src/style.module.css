@@ -16,12 +16,15 @@
 }
 .listItem {
   font-weight: bold;
+  box-sizing: border-box;
+  font-size: 14px;
 }
 
 .listItem .iconHover:hover {
   color: orange !important;
   cursor: pointer;
 }
+
 @media only screen and (max-width: 700px) {
   .master {
     width: 80%;
